@@ -28,7 +28,7 @@ hi CompTitle>*        color: #e8e6df; padding: 1px 0.5ex; border-bottom: 1px sol
 hi ContentSeparator   display: -moz-box;
 hi Disabled           color: #f2777a;
 hi Enabled            color: #99cc99; font-weight: bold;
-hi Filter             color: #e8e6df; background: #cc99cc;
+hi Filter             color: #e8e6df; background: #f2777a; font-weight: bold;
 hi FrameIndicator     background-color: #1B2B34; opacity: 0.5; z-index: 999; position: fixed; top: 0; bottom: 0; left: 0; right: 0;
 
 " Help
