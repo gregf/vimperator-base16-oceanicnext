@@ -55,7 +55,7 @@ hi HelpWarning        color: #f2777a; font-weight: bold;
 hi Hint               font-size: 12px; min-width: 2em; text-align: center; text-transform: uppercase; color: #e8e6df; background-color: #f2777a; box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26); opacity: 0.9; z-index: 9999;
 hi Hint::after        content: attr(number);
 hi HintActive         color: #CDD3DE; text-shadow: none; background-color: #1B2B34; box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
-hi HintElem           color: #e8e6df; text-shadow: none; background-color: #4F5B66;
+hi HintElem           color: #e8e6df; text-shadow: none; background-color: #4F5B66; font-weight: bold;
 
 
 hi Indicator          color: #CDD3DE;
@@ -90,7 +90,7 @@ hi Question           color: #99cc99; background: #343D46; font-weight: bold;
 hi StatusLine         color: #CDD3DE; background: transparent; font-weight: bold;
 
 " Used in `pageinfo` or `jumps`
-hi Title              color: #cc99cc; background: #4F5B66; font-weight: bold;
+hi Title              color: #F2777A; background: #1B2B34; font-weight: bold;
 
 hi WarningMsg         color: #E8E6DF; background: #F2777A;
 
