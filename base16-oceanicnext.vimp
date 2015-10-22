@@ -61,7 +61,7 @@ hi HintElem           color: #e8e6df; text-shadow: none; background-color: #4F5B
 hi Indicator          color: #CDD3DE;
 
 " Used also in wrapping error messages as the background, simple speaking
-hi InfoMsg            color: #CDD3DE; background: #F2777A;
+hi InfoMsg            color: #1B2B34; background: #6699CC; font-weight: bold;
 
 " Used in items of Info field of `bmarks`
 hi Keyword            color: #f2777a;
