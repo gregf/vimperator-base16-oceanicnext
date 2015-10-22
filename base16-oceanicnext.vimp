@@ -61,17 +61,17 @@ hi HintElem           color: #e8e6df; text-shadow: none; background-color: #4F5B
 hi Indicator          color: #CDD3DE;
 
 " Used also in wrapping error messages as the background, simple speaking
-hi InfoMsg            color: #CDD3DE; background: #45F5B66;
+hi InfoMsg            color: #CDD3DE; background: #F2777A;
 
 " Used in items of Info field of `bmarks`
 hi Keyword            color: #f2777a;
 hi Tag                color: #6699cc;
 hi URL                text-decoration: none; color: #99cc99; background: #4F5B66;
-hi URL:hover  color: #880; background-color: #222; -moz-border-radius: 5px; cursor: pointer;
+hi URL:hover  color: #CDD3DE; background-color: #4F5B66; -moz-border-radius: 5px; cursor: pointer;
 
 " Used when error on syntax error in vimperatorrc, etc.
 hi LineNr             color: #CDD3DE; background: #1B2B34;
-hi ErrorMsg           color: #e8e6df; background: #343D46; font-weight: bold;
+hi ErrorMsg           color: #e8e6df; background: #F2777A; font-weight: bold;
 
 " Used in CARET or COMMAND modes
 hi ModeMsg            color: #343D46; background: #99C794; border-radius:2px; padding: 0px 5px; font-weight: bold;
@@ -92,7 +92,7 @@ hi StatusLine         color: #CDD3DE; background: transparent; font-weight: bold
 " Used in `pageinfo` or `jumps`
 hi Title              color: #cc99cc; background: #4F5B66; font-weight: bold;
 
-hi WarningMsg         color: #f2777a; background: #2d2d2d;
+hi WarningMsg         color: #E8E6DF; background: #F2777A;
 
 " Firefox's tabs
 hi TabNumber        color: #4F5B66; font-weight: bold; margin: 0; padding-right: .3ex; text-shadow: #000 -1px 0 0, #000 0 1px 0, #000 1px 0 0, #000 0 -1px 0;
